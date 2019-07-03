@@ -121,24 +121,24 @@
   
 // $('#btn').click(alert('hi'))
 
-const posts = [{name: "guy", text: "hi i'm guy"}, {name: "nuna", text: "hi i'm nuna"}]
-for(let index in posts){
-    
-}
+// const posts = [{name: "guy", text: "hi i'm guy"}, {name: "nuna", text: "hi i'm nuna"}]
+// for(let index in posts){
+//     let post = `${posts[index].name} sais ${posts[index].text}`
+//     $("body").append(`<div>${post}</div>)
 
+// const posts = [{name: "guy", text: "hi i'm guy"}, {name: "nuna", text: "hi i'm nuna"}]
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+// const render = function(){
+//     for(let p in posts){
+//     let post = `${posts[p].name} ${posts[p].text}`
+//     $("body").append(`<div class=posts>${post}</div>`)
+//     }
+// }
+//     $("button").click(function(){
+//     let newUser = {name: $("#name").val(), text: $("#text").val()}
+//     posts.push(newUser)
+//     $("input").val("")
+//     $(".posts").empty()
+//     render()
+//     })
+// render()
